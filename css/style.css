@@ -14,16 +14,6 @@ body {
     padding: 0;
 }
 
-/* Typography */
-h1, h2 {
-    color: #008080;
-    margin-bottom: 1rem;
-}
-
-p {
-    margin: 1rem 0;
-}
-
 /* Header and Navigation */
 header {
     background-color: #008080;
@@ -58,46 +48,25 @@ nav ul li a:hover {
     }
 }
 
-/* Intro Section (Home Page) */
-.intro {
-    text-align: center;
-    margin: 3rem auto;
-    max-width: 800px;
-}
-
-.intro h1 {
-    font-size: 2.5rem;
-}
-
-.intro .buttons {
+/* Pet Filters */
+#pet-filters {
+    margin: 2rem 0;
     display: flex;
-    justify-content: center;
     gap: 1rem;
-    margin-top: 1.5rem;
+    align-items: center;
 }
 
-.intro button {
-    background-color: #008080;
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
+#pet-filters label {
+    font-weight: bold;
+}
+
+#pet-filters select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
     border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
 }
 
-.intro button:hover {
-    background-color: #005f5f;
-}
-
-/* Responsive Buttons */
-@media (max-width: 768px) {
-    .intro .buttons {
-        flex-direction: column;
-    }
-}
-
-/* Pet List (Adopt a Pet Page) */
+/* Pet List Grid */
 .pet-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -105,6 +74,7 @@ nav ul li a:hover {
     margin: 2rem;
 }
 
+/* Pet Card Styling */
 .pet-card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -134,47 +104,7 @@ nav ul li a:hover {
     background-color: #005f5f;
 }
 
-/* Form Styles (Profile Page) */
-form {
-    max-width: 600px;
-    margin: 3rem auto;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-form label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-form input[type="text"],
-form input[type="number"] {
-    width: 100%;
-    padding: 0.75rem;
-    margin-bottom: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-form input[type="submit"] {
-    background-color: #008080;
-    color: white;
-    border: none;
-    padding: 0.75rem 1.5rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-form input[type="submit"]:hover {
-    background-color: #005f5f;
-}
-
-/* AI Chat Section */
+/* Chatbox and AI styling */
 #ai-chat {
     max-width: 600px;
     margin: 3rem auto;
@@ -190,7 +120,6 @@ form input[type="submit"]:hover {
     padding: 1rem;
     border-bottom: 1px solid #ddd;
     margin-bottom: 1rem;
-    background-color: #fff;
 }
 
 .input-area {
@@ -212,11 +141,6 @@ button {
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background-color: #005f5f;
 }
 
 .user-message, .ai-message {
@@ -231,35 +155,48 @@ button:hover {
     text-align: left;
 }
 
-/* Comment Section (Community Page) */
-.comment-form {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 3rem auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#comment-box {
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
     width: 100%;
-    height: 100px;
-    padding: 1rem;
+    padding: 0.75rem;
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-#comments-section {
-    margin-top: 2rem;
-}
-
-.comment {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+form input[type="submit"] {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
     border-radius: 5px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    cursor: pointer;
 }
 
-/* Footer */
+form input[type="submit"]:hover {
+    background-color: #005f5f;
+}
+
+
+/* Footer Styling */
 footer {
     text-align: center;
     background-color: #008080;
