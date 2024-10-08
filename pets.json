@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Bella",
+    "breed": "Shih Tzu",
+    "age": "2 years",
+    "image": "images/pet1.jpg",
+    "description": "A playful and affectionate dog who loves long walks and cuddles."
+  },
+  {
+    "name": "Luna",
+    "breed": "Siamese",
+    "age": "1 year",
+    "image": "images/pet2.jpg",
+    "description": "An energetic and curious cat who loves to explore her surroundings."
+  }
+]
