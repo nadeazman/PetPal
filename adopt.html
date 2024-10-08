@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PetPal - Your Pet Community</title>
+    <title>Adopt a Pet - PetPal</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-	
 <body>
     <header>
         <nav>
@@ -21,18 +19,39 @@
             </ul>
         </nav>
     </header>
-	
-<main>
-    <h1>Adopt a Pet</h1>
-    <section id="pet-list" class="pet-list">
-        <!-- Pets will be dynamically loaded here -->
-    </section>
-</main>
-<script src="js/pets.js"></script>
-	
+
+    <main>
+        <h1>Adopt a Pet</h1>
+
+        <!-- Filter Options -->
+        <section id="pet-filters">
+            <label for="breed-filter">Filter by Breed:</label>
+            <select id="breed-filter">
+                <option value="all">All</option>
+                <option value="Shih Tzu">Shih Tzu</option>
+                <option value="Siamese">Siamese</option>
+                <!-- Add more breed options as necessary -->
+            </select>
+
+            <label for="age-filter">Filter by Age:</label>
+            <select id="age-filter">
+                <option value="all">All</option>
+                <option value="1">1 Year</option>
+                <option value="2">2 Years</option>
+                <!-- Add more age options as necessary -->
+            </select>
+        </section>
+
+        <!-- Pets List -->
+        <section id="pet-list" class="pet-list">
+            <!-- Pets will be dynamically loaded here -->
+        </section>
+    </main>
+
     <footer>
         <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
     </footer>
-	
+
+    <script src="js/pets.js"></script>
 </body>
 </html>
