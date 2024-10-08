@@ -19,24 +19,27 @@
             </ul>
         </nav>
     </header>
+	
 <main>
     <h1>Community Discussions</h1>
     <section class="discussion-board">
         <div class="comment-form">
             <textarea id="comment-box" placeholder="Write a comment..."></textarea>
-            <button onclick="submitComment()">Submit</button>
+            <button id="submit-comment">Submit</button>
         </div>
 
         <div id="comments-section">
             <!-- User comments will appear here -->
         </div>
     </section>
-</main>
+    <button id="clear-comments">Clear All Comments</button>
+</main>	
 	
-	<script src="js/comments.js"></script>
-
     <footer>
         <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
-    </footer>
+    </footer>	
+	
+	<script src="js/comments.js"></script>
+	<script src="js/comments-localstorage.js"></script>
 </body>
 </html>
