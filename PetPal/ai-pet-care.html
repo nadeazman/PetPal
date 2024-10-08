@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPal - Your Pet Community</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pet</a></li>
+                <li><a href="playdates.html">Playdates</a></li>
+                <li><a href="profile.html">Create Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="ai-pet-care.html">AI Pet Care</a></li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1>AI Pet Care Assistant</h1>
+    <div id="ai-chat">
+        <div class="chat-box" id="chat-box">
+            <!-- AI and User messages will appear here -->
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Ask a question about your pet...">
+            <button id="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</main>
+<script src="js/ai-chat.js"></script>
+    <footer>
+        <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
+    </footer>
+</body>
+</html>
