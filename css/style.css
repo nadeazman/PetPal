@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 /* Hero Section (Home Page) */
 .hero {
-    background-image: url('images/pet-hero.jpg');
+    background-image: url('https://petpalz.netlify.app/images/pet-hero.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
