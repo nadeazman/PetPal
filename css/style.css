@@ -58,36 +58,55 @@ nav ul li a:hover {
     }
 }
 
-/* Intro Section (Home Page) */
-.intro {
+/* Hero Section (Home Page) */
+.hero {
+    background-image: url('images/pet-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(0, 128, 128, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
     text-align: center;
-    margin: 3rem auto;
-    max-width: 800px;
 }
 
-.intro h1 {
-    font-size: 2.5rem;
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
-.intro .buttons {
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .buttons {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1.5rem;
 }
 
-.intro button {
-    background-color: #008080;
+.hero button {
+    background-color: #ff9800;
     color: white;
     border: none;
-    padding: 0.75rem 1.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s ease;
 }
 
-.intro button:hover {
-    background-color: #005f5f;
+.hero button:hover {
+    background-color: #e68900;
 }
 
 /* Responsive Buttons */
