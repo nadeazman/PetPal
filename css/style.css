@@ -81,6 +81,8 @@ nav ul li a:hover {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: white; /* Change the color to white for better visibility */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add text shadow for even more clarity */
 }
 
 .hero p {
