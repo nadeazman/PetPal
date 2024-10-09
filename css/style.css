@@ -127,14 +127,16 @@ nav ul li a:hover {
 }
 
 .pet-card {
-    background-color: #fff;
+    background-color: #f9f9f9;
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Reduce card width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 450px;
 }
 
 .pet-card img {
@@ -144,19 +146,18 @@ nav ul li a:hover {
 }
 
 .pet-card button {
-    background-color: #ff9800;
+    background-color: #008080;
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
-    font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s;
-    margin-top: 1rem;
+    margin-top: auto;
 }
 
 .pet-card button:hover {
-    background-color: #e68900;
+    background-color: #005f5f;
 }
 
 /* Form Styles (Profile Page) */
