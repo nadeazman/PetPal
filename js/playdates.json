@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Central Park Dog Playdate",
+    "latitude": 3.1390,
+    "longitude": 101.6869,
+    "description": "Join fellow dog owners every Saturday at Central Park for a fun playdate!"
+  },
+  {
+    "name": "PetPal Monthly Meetup",
+    "latitude": 3.1516,
+    "longitude": 101.6944,
+    "description": "A monthly meetup for all pet lovers, organized by PetPal."
+  },
+  {
+    "name": "Taman Tasik Titiwangsa Walk",
+    "latitude": 3.1735,
+    "longitude": 101.7027,
+    "description": "Join us for a morning walk around Taman Tasik Titiwangsa with your pets!"
+  },
+  {
+    "name": "Sungai Buloh Pet Gathering",
+    "latitude": 3.2135,
+    "longitude": 101.5747,
+    "description": "Meet other pet owners at Sungai Buloh for an afternoon of fun and activities for pets."
+  },
+  {
+    "name": "Kota Damansara Pet Playdate",
+    "latitude": 3.1501,
+    "longitude": 101.5637,
+    "description": "Come to Kota Damansara's park for a pet playdate with lots of running space and a dog-friendly cafe nearby."
+  },
+  {
+    "name": "Shah Alam Pet Lovers Meetup",
+    "latitude": 3.0738,
+    "longitude": 101.5183,
+    "description": "Gather at Shah Alam's recreational park for a day of fun activities for you and your pets!"
+  },
+  {
+    "name": "Bukit Kiara Park Playdate",
+    "latitude": 3.1404,
+    "longitude": 101.6397,
+    "description": "A casual meetup for pets and owners at Bukit Kiara Park every Sunday morning."
+  },
+  {
+    "name": "Subang Jaya Pet Walk",
+    "latitude": 3.0810,
+    "longitude": 101.5897,
+    "description": "A monthly walk for pets and their owners around the scenic parks of Subang Jaya."
+  }
+]

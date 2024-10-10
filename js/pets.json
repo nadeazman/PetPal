@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Bella",
+    "breed": "Shih Tzu",
+    "age": 32,
+    "animal": "dog",
+    "images": [
+      "images/pet1-1.jpg",
+      "images/pet1-2.jpg",
+      "images/pet1-3.jpg"
+    ],
+    "description": "A playful and affectionate dog who loves long walks and cuddles."
+  },
+  {
+    "name": "Luna",
+    "breed": "Siamese",
+    "age": 14,
+    "animal": "cat",
+    "images": [
+      "images/pet2-1.jpg",
+      "images/pet2-2.jpg",
+      "images/pet2-3.jpg"
+    ],
+    "description": "An energetic and curious cat who loves to explore her surroundings."
+  },
+  {
+    "name": "Max",
+    "breed": "Golden Retriever",
+    "age": 36,
+    "animal": "dog",
+    "images": [
+      "images/pet3-1.jpg",
+      "images/pet3-2.jpg",
+      "images/pet3-3.jpg"
+    ],
+    "description": "Max is a friendly and loyal companion who enjoys fetching and swimming."
+  },
+  {
+    "name": "Whiskers",
+    "breed": "Maine Coon",
+    "age": 50,
+    "animal": "cat",
+    "images": [
+      "images/pet4-1.jpg",
+      "images/pet4-2.jpg",
+      "images/pet4-3.jpg"
+    ],
+    "description": "Whiskers is a calm and majestic cat who loves lounging in the sun."
+  },
+  {
+    "name": "Charlie",
+    "breed": "Beagle",
+    "age": 28,
+    "animal": "dog",
+    "images": [
+      "images/pet5-1.jpg",
+      "images/pet5-2.jpg",
+      "images/pet5-3.jpg"
+    ],
+    "description": "Charlie is a curious and playful dog who loves following scents and exploring."
+  },
+  {
+    "name": "Milo",
+    "breed": "Persian",
+    "age": 36,
+    "animal": "cat",
+    "images": [
+      "images/pet6-1.jpg",
+      "images/pet6-2.jpg",
+      "images/pet6-3.jpg"
+    ],
+    "description": "Milo is a quiet and loving cat who enjoys being pampered and groomed."
+  },
+  {
+    "name": "Rocky",
+    "breed": "Bulldog",
+    "age": 60,
+    "animal": "dog",
+    "images": [
+      "images/pet7-1.jpg",
+      "images/pet7-2.jpg",
+      "images/pet7-3.jpg"
+    ],
+    "description": "Rocky is a laid-back dog who enjoys relaxing and short walks."
+  },
+  {
+    "name": "Zoe",
+    "breed": "Poodle",
+    "age": 38,
+    "animal": "dog",
+    "images": [
+      "images/pet8-1.jpg",
+      "images/pet8-2.jpg",
+      "images/pet8-3.jpg"
+    ],
+    "description": "Zoe is a smart and energetic dog who loves performing tricks and running."
+  },
+  {
+    "name": "Oliver",
+    "breed": "British Shorthair",
+    "age": 24,
+    "animal": "cat",
+    "images": [
+      "images/pet9-1.jpg",
+      "images/pet9-2.jpg",
+      "images/pet9-3.jpg"
+    ],
+    "description": "Oliver is an easygoing and affectionate cat who loves being around people."
+  },
+  {
+    "name": "Daisy",
+    "breed": "Cocker Spaniel",
+    "age": 8,
+    "animal": "dog",
+    "images": [
+      "images/pet10-1.jpg",
+      "images/pet10-2.jpg",
+      "images/pet10-3.jpg"
+    ],
+    "description": "Daisy is a lively and friendly dog who enjoys playing fetch and meeting new friends."
+  }
+]
