@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Pet</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pet</a></li>
+                <li><a href="profile.html">Create Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Find Your New Best Friend</h1>
+
+        <!-- Filter Section -->
+        <section class="filters">
+            <label for="animal-filter">Filter by Animal:</label>
+            <select id="animal-filter">
+                <option value="all">All</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+            </select>
+
+            <label for="breed-filter">Filter by Breed:</label>
+            <select id="breed-filter">
+                <option value="all">All</option>
+                <option value="Shih Tzu">Shih Tzu</option>
+                <option value="Siamese">Siamese</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Maine Coon">Maine Coon</option>
+                <option value="Beagle">Beagle</option>
+                <!-- Add more breeds as needed -->
+            </select>
+
+            <label for="age-filter">Filter by Age:</label>
+            <select id="age-filter">
+                <option value="all">All</option>
+                <option value="<12">&lt; 1 year old</option>
+                <option value="12-24">1 to 2 years</option>
+                <option value="24-36">2 to 3 years</option>
+                <option value=">36">More than 3 years</option>
+            </select>
+
+            <button id="reset-filters">Reset Filters</button>
+        </section>
+
+        <!-- Loading Message -->
+        <div id="loading-message" style="display: none;">Loading pets...</div>
+
+        <!-- Pet List Section -->
+        <section id="pet-list" class="pet-list">
+            <!-- Pet cards will be dynamically injected here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="js/pets.js"></script>
+</body>
+</html>

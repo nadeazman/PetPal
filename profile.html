@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Profile - PetPal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pet</a></li>
+                <li><a href="playdates.html">Playdates</a></li>
+                <li><a href="profile.html">Create Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="ai-pet-care.html">AI Pet Care</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Create Your Profile</h1>
+        <form id="profile-form">
+            <label for="owner-name">Owner's Name:</label>
+            <input type="text" id="owner-name" name="owner-name">
+
+            <label for="pet-name">Pet's Name:</label>
+            <input type="text" id="pet-name" name="pet-name">
+
+            <label for="pet-breed">Pet's Breed:</label>
+            <input type="text" id="pet-breed" name="pet-breed">
+
+            <label for="pet-age">Pet's Age:</label>
+            <input type="number" id="pet-age" name="pet-age">
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Button to clear profile data -->
+        <button id="clear-data">Clear Profile Data</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
+    </footer>
+
+    <!-- Link to the JavaScript file for form validation and local storage handling -->
+    <script src="js/local-storage.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetPal - Your Pet Community</title>
+    <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pet</a></li>
+                <li><a href="playdates.html">Playdates</a></li>
+                <li><a href="profile.html">Create Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="ai-pet-care.html">AI Pet Care</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+<main>
+    <h1>Community Discussions</h1>
+    <section class="discussion-board">
+        <div class="comment-form">
+            <textarea id="comment-box" placeholder="Write a comment..."></textarea>
+            <button id="submit-comment">Submit</button>
+        </div>
+
+        <div id="comments-section">
+            <!-- User comments will appear here -->
+        </div>
+    </section>
+    <button id="clear-comments">Clear All Comments</button>
+</main>
+	
+    <footer>
+        <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
+    </footer>	
+	
+	<script src="js/comments-localstorage.js"></script>
+</body>
+</html>

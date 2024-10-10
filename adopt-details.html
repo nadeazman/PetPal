@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Details</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt a Pet</a></li>
+                <li><a href="profile.html">Create Profile</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="pet-details" class="pet-details-container">
+            <!-- Swiper Carousel for Pet Images -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper" id="swiper-wrapper">
+                    <!-- Slides will be injected dynamically here -->
+                </div>
+                <!-- Navigation buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <!-- Pet Information -->
+            <div class="pet-info">
+                <!-- Pet details (name, breed, age, description) will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Adoption Form -->
+        <section id="adopt-form" class="form-section">
+            <h2>Adopt this Pet</h2>
+            <form id="adoption-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Why do you want to adopt this pet?" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 PetPal - Connecting Pet Lovers in Malaysia</p>
+    </footer>
+
+    <!-- SwiperJS JavaScript -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/adopt-details.js"></script>
+</body>
+</html>
